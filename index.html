@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Alma</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="font-sans text-gray-800">
+
+    <section class="relative h-[72vh] sm:h-[62vh] bg-cover bg-center"
+        style="background-image: url('images/interior.png');">
+
+        <nav class="absolute top-0 w-full z-20 bg-transparent">
+            <div class="max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between h-[72px]">
+
+                <div class="flex items-center space-x-2">
+                    <img src="images/almalogo.jpg" alt="The Alma Logo" class="h-16 mt-2">
+                </div>
+
+                <div class="hidden md:flex items-center gap-8 mt-6">
+                    <p class="text-white text-xs mt-10">Book Site Visit</p>
+                    <div class="flex flex-col items-end">
+                        <p class="text-white text-xs mb-5">View More Projects</p>
+                        <a href="#" class="px-12 py-3 bg-white text-black text-xs">Book Now</a>
+                    </div>
+                </div>
+
+                <button id="menuBtn" class="md:hidden text-white text-2xl focus:outline-none">
+                    ☰
+                </button>
+            </div>
+
+            <div id="mobileMenu"
+                class="hidden flex flex-col items-start px-6 py-4 bg-black text-white space-y-4 md:hidden">
+                <a href="#about" class="text-sm">Book Site Visit</a>
+                <a href="#projects" class="text-sm">View More Projects</a>
+                <a href="#" class="px-6 py-2 bg-white text-black text-xs">Book Now</a>
+            </div>
+        </nav>
+
+
+        </nav>
+
+        <div class="relative z-10 flex flex-col justify-center h-full px-6 lg:px-20 text-white pt-20">
+            <div class="max-w-xl">
+                <h1 class="text-4xl sm:text-2xl lg:text-3xl font-medium mb-4">
+                    A comprehensive lifestyle <br>development in ruaka
+                </h1>
+                <div class="flex gap-4 flex-wrap">
+                    <button class="px-2 py-1 bg-white text-xs text-black rounded shadow hover:bg-gray-200">
+                        Let’s work together!
+                    </button>
+                    <button
+                        class="px-2 py-1 bg-transparent border border-white text-xs text-white rounded hover:bg-white hover:text-black">
+                        Proceed to main website
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-black text-white px-6 py-8 lg:px-20 flex flex-col lg:flex-row items-center justify-between">
+        <p class="text-lg lg:text-xl ml-12 max-w-xl">The project is strategically positioned in the heart of the fast
+            growing
+            Ruaka neighborhood.</p>
+        <div class="text-center mt-5 lg:mt-0">
+            <p class="text-4xl font-bold">14</p>
+            <p class="text-lg font-normal">Million</p>
+            <p class="text-sm">Three Bedroom</p>
+        </div>
+
+    </section>
+
+    <section id="about" class="px-6 lg:px-20 py-16 text-center">
+        <h2 class="text-2xl font-light mb-9">About The Alma</h2>
+        <p class="text-gray-700 text-xs leading-relaxed max-w-4xl mx-auto">
+            The Alma is a signature lifestyle development in the fast growing satellite town of Ruaka that encompasses
+            1, 2 and 3 bedroom apartments with impeccable finishing.
+            The Alma envisions convenience and comfort. Available amenities include a retail centre, club house, gym,
+            swimming pool and kindergarten.
+            The Alma, which is set for completion in 2018 is 50% sold. Early stage investors in The Alma, have recorded
+            annualized capital gains as high as 55%, since purchasing their units less than a year ago.
+            Kindly provide us your contact details to have our Real Estate Advisors contact you with more information on
+            the Alma.
+            (Your contact information will be kept private and not shared with third parties)
+        </p>
+    </section>
+
+    <section class="relative bg-gray-900">
+        <div class="relative" style="padding-top: 18.75%">
+            <iframe class="absolute inset-0 w-full h-full rounded-lg shadow-lg"
+                src="https://www.youtube.com/embed/CEnlhIPCB84?autoplay=0&rel=0" title="The Alma by Cytonn Real Estate"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <div class="bg-white pt-12 text-center">
+        <h3 class=" text-xl lg:text-3xl sm:text-2xl mb-8">Key amenities & features</h3>
+    </div>
+
+    <section id="amenities" class="px-6 lg:px-20 py-26 bg-cover bg-center"
+        style="background-image: url('images/amenities.png');">
+
+        <div class="flex flex-wrap justify-center gap-6 -mt-26 text-black bg-white">
+            <span class="px-4 py-1 text-xs sm:text-sm md:text-base border-t-2 border-grey-500">RETAIL CENTRE</span>
+            <span class="px-4 py-1 text-xs sm:text-sm md:text-base border-t-2 border-grey-500">THE PARKING BAY</span>
+            <span class="px-4 py-1 text-xs sm:text-sm md:text-base border-t-2 border-grey-500">THE PLAYGROUND</span>
+            <span class="px-4 py-1 text-xs sm:text-sm md:text-base border-t-2 border-grey-500">SWIMMING POOL</span>
+            <span class="px-4 py-1 text-xs sm:text-sm md:text-base border-t-2 border-grey-500">THE GYM</span>
+        </div>
+
+
+        <p class="pt-8 top-10 text-2xl text-center font-medium text-white">
+            The amenities at The Alma ensure <br> convenience at its best
+        </p>
+    </section>
+
+
+    <section class="w-full">
+        <div class="overflow-x-auto">
+            <div class="flex w-max min-h-[265px]">
+
+                <div class="bg-black flex items-center justify-center text-center p-8 w-[325px]">
+                    <h2 class="text-white text-xl font-medium leading-relaxed">
+                        Structure & <br> Floor Plans
+                    </h2>
+                </div>
+
+                <div class="bg-red-800 flex flex-col items-center justify-center text-center p-8 w-[325px]">
+                    <h3 class="text-lg font-semibold text-white mb-2">One bedroom apartments</h3>
+                    <p class="text-sm text-white leading-relaxed">
+                        The Alma one bedroom apartment includes a living room with a breakfast bar
+                        overlooking the kitchen.
+                    </p>
+                </div>
+
+                <div class="bg-gray-100 flex flex-col items-center justify-center text-center p-8 w-[325px] mr-1">
+                    <img src="images/interior.png" alt="Two bedroom apartment" class="mb-4 max-h-40 object-contain" />
+                    <h3 class="text-base font-medium text-gray-900">Two bedroom apartments</h3>
+                </div>
+
+                <div class="bg-gray-100 flex flex-col items-center justify-center text-center p-8">
+                    <img src="images/interior.png" alt="Three bedroom apartment" class="mb-4 max-h-40 object-contain" />
+                    <h3 class="text-base font-medium text-gray-900">Three bedroom apartments</h3>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="px-6 lg:px-18 py-6 flex flex-col lg:flex-row justify-between min-h-[40vh] bg-gray-50">
+
+        <div class="lg:w-1/2 mt-6 ml-12">
+            <h2 class="text-xl mb-5">Get In touch with Us...</h2>
+            <p class="">Cytonn Real Estate would like to</p>
+            <p class="">work with you hand in hand and</p>
+            <p class="mb-4">help you get your dream home.</p>
+
+            <p>Connect with Us!</p>
+            <p class="mt-2">
+                <a href="mailto:clientservices@cytonn.com" class="font-bold">clientservices@cytonn.com</a>
+            </p>
+            <p>
+                <a href="mailto:sales@cytonn.com" class="font-bold">sales@cytonn.com</a>
+            </p>
+        </div>
+
+        <div class="lg:w-1/2 flex items-center justify-center">
+            <div class="w-full max-w-[420px] -mb-32 bg-white shadow-md p-6">
+                <h2 class="text-2xl text-thin mb-6">Leave us your contacts</h2>
+
+                <form class="space-y-3">
+                    <div>
+                        <label class="block text-gray-700 mb-1">First Name</label>
+                        <input type="text"
+                            class="w-full px-3 py-1 bg-gray-100 focus:ring-2 focus:ring-black focus:outline-none">
+                    </div>
+
+                    <div>
+                        <label class="block text-gray-700 mb-1">Second Name</label>
+                        <input type="text"
+                            class="w-full px-3 py-1 bg-gray-100 focus:ring-2 focus:ring-black focus:outline-none">
+                    </div>
+
+                    <div>
+                        <label class="block text-gray-700 mb-1">Email Address</label>
+                        <input type="email"
+                            class="w-full px-3 py-1 bg-gray-100 focus:ring-2 focus:ring-black focus:outline-none">
+                    </div>
+
+                    <div>
+                        <label class="block text-gray-700 mb-1">Phone Number</label>
+                        <input type="tel"
+                            class="w-full px-3 py-1 bg-gray-100 focus:ring-2 focus:ring-black focus:outline-none">
+                    </div>
+
+                    <div class="mt-2">
+                        <button type="submit"
+                            class="w-full bg-gradient-to-b from-gray-900 to-black text-white font-bold py-4 hover:opacity-90 transition">
+                            SUBMIT
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="h-24 bg-gradient-to-b from-yellow-900 to-black"></div>
+
+        </div>
+    </section>
+    <footer>
+        <div class="hidden md:flex bg-black py-13 gap-18 text-gray-500">
+            <p class="text-center ml-27">
+                <strong>Nairobi, Kenya</strong><br>
+                sales@cytonn.com<br>
+                020 392 9000
+            </p>
+            <p class="text-center">
+                <strong>United States</strong><br>
+                +1 (301) 982-2560<br>
+                +1 (301) 825-9948
+            </p>
+        </div>
+    </footer>
+
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
